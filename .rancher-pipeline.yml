@@ -20,8 +20,8 @@ stages:
       answers:
         image.repository: docker.dev.folio.org/mod-ebsconet
         image.tag: thunderjet-latest
-        postJob.enabled: true
-      targetNamespace: thunderjet
+        postJob.enabled: "true"
       name: mod-ebsconet
+      targetNamespace: thunderjet
 timeout: 60
 notification: {}
